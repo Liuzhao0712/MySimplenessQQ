@@ -1,5 +1,6 @@
 package QQ;
 
+import QQ.QQServer.NewsServer;
 import QQ.QQServer.Server;
 
 /**
@@ -10,6 +11,9 @@ import QQ.QQServer.Server;
  */
 public class QQFreame {
     public static void main(String[] args) {
+        Thread newsServer = new Thread(new NewsServer());
+        newsServer.start();
+
         Server server = new Server();
     }
 }

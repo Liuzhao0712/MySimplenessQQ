@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abc1492b-f25c-415d-b4b7-43c6813c02e9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2B9XJw1cXbYHd9Ghau97B7SUSoV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/app_code/git_code/my_codeWarehouse&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  }
+}</component>
+  <component name="RunManager" selected="应用程序.UDPsenderB">
+    <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Socket_.SocketClient" />
+      <module name="HSP_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Socket_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Socket_Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Socket_.Socket_Server" />
+      <module name="HSP_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Socket_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UDPReceiverA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udp.UDPReceiverA" />
+      <module name="HSP_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UDPsenderB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udp.UDPsenderB" />
+      <module name="HSP_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="udp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileOutPutStream_.writeFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HSP_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="file_.outPutStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="file_.outPutStream" />
+      <option name="MAIN_CLASS_NAME" value="file_.outPutStream.FileOutPutStream_" />
+      <option name="METHOD_NAME" value="writeFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.UDPsenderB" />
+        <item itemvalue="应用程序.UDPReceiverA" />
+        <item itemvalue="应用程序.Socket_Server" />
+        <item itemvalue="应用程序.SocketClient" />
+        <item itemvalue="JUnit.FileOutPutStream_.writeFile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abc1492b-f25c-415d-b4b7-43c6813c02e9" name="Changes" comment="" />
+      <created>1656319218005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656319218005</updated>
+      <workItem from="1656319220943" duration="76000" />
+      <workItem from="1656319339356" duration="574000" />
+      <workItem from="1656320362238" duration="278000" />
+      <workItem from="1656320679235" duration="5010000" />
+      <workItem from="1656330777491" duration="4056000" />
+      <workItem from="1656405857030" duration="606000" />
+      <workItem from="1656407049817" duration="17000" />
+      <workItem from="1656418158776" duration="3890000" />
+      <workItem from="1656497073998" duration="424000" />
+      <workItem from="1656546156114" duration="3753000" />
+      <workItem from="1656571945445" duration="299000" />
+      <workItem from="1656574388935" duration="4780000" />
+      <workItem from="1656636108618" duration="1452000" />
+      <workItem from="1656656895131" duration="6495000" />
+      <workItem from="1656718888226" duration="6074000" />
+      <workItem from="1656893482478" duration="6953000" />
+      <workItem from="1657012721156" duration="7153000" />
+      <workItem from="1657150799589" duration="7030000" />
+      <workItem from="1657182538676" duration="2934000" />
+      <workItem from="1657197661669" duration="691000" />
+      <workItem from="1657237904685" duration="2870000" />
+      <workItem from="1657272131998" duration="5486000" />
+      <workItem from="1657330850903" duration="1788000" />
+      <workItem from="1657409380038" duration="3509000" />
+      <workItem from="1657418087058" duration="12000" />
+      <workItem from="1657444123575" duration="1271000" />
+      <workItem from="1657445450947" duration="111000" />
+      <workItem from="1657451491322" duration="40000" />
+      <workItem from="1657451555585" duration="29000" />
+      <workItem from="1657451606753" duration="527000" />
+      <workItem from="1657519885512" duration="13266000" />
+      <workItem from="1657543084998" duration="822000" />
+      <workItem from="1657583692672" duration="590000" />
+      <workItem from="1657605860364" duration="6659000" />
+      <workItem from="1657672495852" duration="1115000" />
+      <workItem from="1657674015945" duration="518000" />
+      <workItem from="1657674565243" duration="729000" />
+      <workItem from="1657675334313" duration="3060000" />
+      <workItem from="1657685690199" duration="6653000" />
+      <workItem from="1657715256016" duration="2273000" />
+      <workItem from="1657752663631" duration="4000000" />
+      <workItem from="1657772071194" duration="1298000" />
+      <workItem from="1657773491871" duration="2324000" />
+      <workItem from="1657803645696" duration="1743000" />
+      <workItem from="1657845010099" duration="10550000" />
+      <workItem from="1657890250894" duration="1124000" />
+      <workItem from="1657927717784" duration="1910000" />
+      <workItem from="1657957002664" duration="858000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test_StringFunction/list/List_.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test_StringFunction/list/ArrayList_.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test_StringFunction/list/ArrayList_.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test_StringFunction/list/HashMap_.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="al" language="JAVA" />
+        <watch expression="ll" language="JAVA" />
+        <watch expression="((LinkedHashSet)set).map" custom="java.util.LinkedHashSet" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -36,16 +36,16 @@ public class QQview {
                             System.out.println("\t\t 1 显示用户列表");
                             System.out.println("\t\t 2 群发消息");
                             System.out.println("\t\t 3 私聊消息 ");
+                            System.out.println("\t\t 4 发送文件");
                             System.out.println("\t\t 9 退出系统");
                             switch (in.nextInt()) {
                                 case 1:
                                     userClientService.onlineFriendList();
                                     break;
                                 case 2:
-                                    in.nextLine();
+                                    in.nextLine();//清空输入流的缓存
                                     System.out.print("请输入群发内容:");
                                     String s = in.nextLine();
-                                    System.out.println(s);
                                     userClientService.groupChat(s);//群发消息的方法
                                     break;
                                 case 3:
@@ -54,10 +54,18 @@ public class QQview {
                                     String s1 = in.nextLine();
                                     System.out.print("请输入内容:");
                                     String s2 = in.nextLine();
-                                    userClientService.privateChat(s1,s2);
+                                    userClientService.privateChat(s1, s2);
                                     System.out.println("发送成功");
                                     break;
-
+                                case 4:
+                                    in.nextLine();
+                                    System.out.print("请输入接收文件的用户ID：");
+                                    String s3 = in.nextLine();
+                                    System.out.print("请输入文件夹路径：");
+                                    String s4 = in.nextLine();
+                                    userClientService.sendFileToOne(s4, s3);
+                                    System.out.println("发送成功");
+                                    break;
                                 case 9:
                                     userClientService.logOut();
                                     loop = false;

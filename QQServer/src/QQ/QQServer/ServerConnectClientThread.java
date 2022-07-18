@@ -72,6 +72,12 @@ public class ServerConnectClientThread extends Thread{
                         ManageClientThreads.groupChat(message);
                         System.out.println(message.getSender()+"群发成功！");
                         break;
+                    case MESSAGE_FILE_MES:
+                        System.out.println(message.getSender()+"需要发送文件");
+                        ManageClientThreads.sendFile(message);
+                        System.out.println("文件发送成功");
+
+
                 }
             } catch (Exception e) {
                 e.printStackTrace();

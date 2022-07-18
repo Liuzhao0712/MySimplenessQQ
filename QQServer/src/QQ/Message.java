@@ -13,6 +13,15 @@ public class Message implements Serializable {
     private String content;//消息内容
     private String senTime;//发送时间
     private MessageType messageType;//消息类型
+    private byte[] file;//文件内容
+
+    public void setFile(byte[] file) {
+        this.file = file;
+    }
+
+    public byte[] getFile() {
+        return file;
+    }
 
     public String getSender() {
         return sender;

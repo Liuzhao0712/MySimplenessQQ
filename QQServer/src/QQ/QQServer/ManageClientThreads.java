@@ -84,6 +84,18 @@ public class ManageClientThreads {
 
     }
 
+    public static void sendFile(Message message){
+        returnMessage = message;
+        ServerConnectClientThread scct = getServerConnectClientThread(message.getGetter());
+        try {
+            scct.getOos().writeObject(returnMessage);
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("发送文件异常！");
+        }
+
+    }
+
     public static HashMap<String, ServerConnectClientThread> getHm() {
         return hm;
     }

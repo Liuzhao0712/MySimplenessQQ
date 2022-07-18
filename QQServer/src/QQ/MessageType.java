@@ -13,6 +13,6 @@ public enum MessageType {
     MESSAGE_RET_ONLINE_FRIEND,//返回在线用户列表
     MESSAGE_PRIVATE_CHAT,//私聊
     MESSAGE_GROUP_CHAT,//群聊
-    MESSAGE_CLIENT_EXIT;//客户端请求退出
-
+    MESSAGE_CLIENT_EXIT,//客户端请求退出
+    MESSAGE_FILE_MES;//客户端发送文件
 }

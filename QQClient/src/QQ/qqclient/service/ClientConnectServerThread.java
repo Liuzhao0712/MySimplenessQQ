@@ -9,6 +9,7 @@ import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.sql.SQLOutput;
+import java.util.Scanner;
 
 /**
  * @quthor Liuzhao
@@ -48,15 +49,21 @@ public class ClientConnectServerThread extends Thread{
                         }
                         break;
                     case MESSAGE_PRIVATE_CHAT:
-                        System.out.println("用户"+message.getSender()+"跟你发消息");
-                        System.out.println("消息内容为："+message.getContent());
-                        System.out.println("消息时间为："+ message.getSenTime());
+                        System.out.println("用户" + message.getSender() + "跟你发消息");
+                        System.out.println("消息内容为：" + message.getContent());
+                        System.out.println("消息时间为：" + message.getSenTime());
                         break;
                     case MESSAGE_GROUP_CHAT:
-                        System.out.println("用户"+message.getSender()+"进行了消息群发");
-                        System.out.println("消息内容为："+message.getContent());
-                        System.out.println("群发时间为："+ message.getSenTime());
+                        System.out.println("用户" + message.getSender() + "进行了消息群发");
+                        System.out.println("消息内容为：" + message.getContent());
+                        System.out.println("群发时间为：" + message.getSenTime());
                         break;
+                    case MESSAGE_FILE_MES:
+                        Scanner in = new Scanner(System.in);
+                        System.out.println("用户" + message.getSender() + "给你发送了一个文件！");
+                        System.out.println(message.getSenTime());
+                        UserClientService.receiveFile(message);
+
 
                 }
             } catch (IOException e) {
